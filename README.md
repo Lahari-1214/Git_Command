@@ -25,7 +25,7 @@ SSH Setup Quick Reminder:
 ssh-keygen -t ******* -C "your_email@example.com"
 
 Important
-____________
+-----------------------
 This README contains essential Git commands for beginners.
 Use this as a quick reference while learning Git or uploading projects to GitHub.
 

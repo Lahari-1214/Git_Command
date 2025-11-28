@@ -1,0 +1,43 @@
+Tags are special labels used to mark important points in your repository’s history — usually releases or milestones.
+What is a Git Tag?
+
+A Git tag is a pointer to a specific commit.
+--------------------------------------------------------------------------
+Developers use tags to mark:
+1) Release versions (v1.0, v2.0, etc.)
+2) Stable checkpoints
+3) Important updates
+For example, when you release version 1.0.0 of your project, you create a tag so anyone can return to that exact version anytime.
+Types of Git Tags
+--------------------------------------------------------------------------
+1. Lightweight Tag
+* Simple pointer to a commit
+* No metadata
+* Like a bookmark
+Command:git tag v1.0
+2. Annotated Tag
+Recommended for releases 
+Stored as full objects in Git
+Contains:
+* Tag name
+* Tagger name
+* Date
+* Message
+Command:git tag -a v1.0 -m "First stable release"
+Viewing Tags
+--------------------------------------------------------------------------
+    git tag
+    git show v1.0
+Push Tags to GitHub
+--------------------------------------------------------------------------
+Tags are not pushed automatically.
+You must explicitly push them:
+    git push origin v1.0
+    git push --tags
+Delete a Tag
+--------------------------------------------------------------------------
+Delete a local tag:
+    git tag -d v1.0
+Delete from GitHub:
+Delete a remote tag:git push origin --delete v1.0
+
