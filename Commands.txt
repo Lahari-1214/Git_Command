@@ -1,0 +1,35 @@
+To initialize the user:
+git init <repository-name>
+To clone a repository:
+git clone <repository-url>  
+To check the status of the repository:
+git status  
+To add files to staging:
+git add <file-name>
+To commit changes:
+git commit -m "commit message"
+To push changes to the remote repository:
+git push origin <branch-name>
+To pull changes from the remote repository:
+git pull origin <branch-name>
+To create a new branch:
+git branch <branch-name>
+To switch to a different branch:
+git checkout <branch-name>
+To merge a branch into the current branch:
+git merge <branch-name>
+To view the commit history:
+git log
+To discard changes in a file:
+git checkout -- <file-name>
+To delete a branch:
+git branch -d <branch-name>
+To view remote repositories:
+git remote -v
+To add a remote repository:
+git remote add <remote-name> <repository-url>
+To remove a remote repository:
+git remote remove <remote-name>
+To stash changes:
+git stash
+To apply stashed changes:
