@@ -1,0 +1,39 @@
+1. Initialize a New Git Repository
+    git init
+Creates a new .git folder and starts version control in the current directory.
+2. Check Repository Status
+    git status
+Shows modified files, staged files, and the current branch status.
+3.Add Files to Staging Area
+    git add filename
+    git add . (Add all files)
+4. Commit Changes
+    git commit -m "your commit message"
+Saves your staged changes with a descriptive message.
+5. Connect Local Repo to GitHub Remote
+    git remote add origin https://github.com/your-username/your-repo.git
+    git remote -v (to verify)
+6. Push Code to GitHub
+    git push -u origin main
+    Next pushes:
+    git push
+7. Pull Latest Changes
+    git pull
+8. Create & Switch Branches
+Create a branch:
+    git branch branch-name
+switch to branch:
+    git checkout branch-name
+Create + switch (shortcut):
+    git checkout -b branch-name
+9. Remove Files
+    git rm filename
+    git rm --cached filename (remove from staging but keep file)    
+10. View Commit History
+    git log
+    short view:
+    git log --oneline
+11. See File Differences
+    git diff
+    
+
