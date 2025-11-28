@@ -1,4 +1,5 @@
 Git Commands – Quick Reference Guide
+-------------------------------------
 A simple and beginner-friendly guide containing the most commonly used Git commands.
 This repository helps you understand how to initialize a project, track changes, and push your code to GitHub using Git.
 
@@ -11,4 +12,10 @@ Before using these commands, make sure you have:
  Your project folder ready
 
 Basic Git Workflow :
+--------------------
 Add → Commit → Push
+
+SSH Setup Quick Reminder:
+------------------------
+ssh-keygen -t ******* -C "your_email@example.com"
+
