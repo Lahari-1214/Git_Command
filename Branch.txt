@@ -9,6 +9,6 @@ All without affecting your main working project.
 2.Switch to a branch: git checkout feature-login 
 new command: git switch feature-login
 3.Create + switch in one step:git checkout -b feature-login
-4.See all branches: git branch
+4.See all branches: git branchgit 
 5.Delete a branch: git branch -d feature-login
 6.Merge a branch into the current branch: git merge feature-login
