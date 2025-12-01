@@ -1,5 +1,5 @@
 Tags are special labels used to mark important points in your repository’s history — usually releases or milestones.
-What is a Git Tag?
+Git Tag:
 
 A Git tag is a pointer to a specific commit.
 --------------------------------------------------------------------------
