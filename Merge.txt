@@ -1,1 +1,2 @@
 This file includes commands related to merging branches in Git.
+wait for the commands:
